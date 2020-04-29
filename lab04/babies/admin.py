@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Baby
 
-# Register your models here.
+
+class StatusAdmin(admin.ModelAdmin):
+	list_attributes = ['name','lastname','parent']
+admin.site.register(Baby,StatusAdmin)
