@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'babies.apps.BabiesConfig',
     'events.apps.EventsConfig',
     'parents.apps.ParentsConfig',
-    'permissions.apps.PermissionsConfig'
 ]
 
 MIDDLEWARE = [

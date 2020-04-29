@@ -4,7 +4,7 @@ from datetime import datetime
 # Create your models here.
 class Event(models.Model):
     event_type = models.CharField(max_length=80, null=True)
-    fecha = models.DateTimeField(default=datetime.now, blank=True)
+    date = models.DateTimeField(default=datetime.now, blank=True)
     note = models.CharField(max_length=800)
     baby = models.ForeignKey(
         'babies.Baby',

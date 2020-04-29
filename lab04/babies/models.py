@@ -12,4 +12,4 @@ class Baby(models.Model):
     )
 
     def __str__(self):
-        return 'Baby: {}'.format(self.name)
+        return 'Parent: {}'.format(self.parent.name)
