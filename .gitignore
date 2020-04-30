@@ -1,6 +1,6 @@
 node_modules/
 .DS_Store
-venv/
+lab4/
 *.pyc*
 
 # Byte-compiled / optimized / DLL files
